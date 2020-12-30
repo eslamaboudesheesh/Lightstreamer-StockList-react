@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Constants from './Constants'
 import {
-  LightstreamerClient,
-  Static,
+  LightstreamerClient
 } from 'lightstreamer-client-web/lightstreamer-core.esm'
 import { Subscription } from 'lightstreamer-client-web/lightstreamer-core.esm'
 import {
