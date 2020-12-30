@@ -103,7 +103,7 @@ export default function Stock({ items , fields }) {
         {fields.map(function (fieldDef) {
           return (
             <td key={fieldDef.field}>
-           { fieldDef.field == "arrow" ? ( <div><img data-source="lightstreamer" data-field="arrow" data-update="src" src="./spacer.gif" width="20" height="8" border="0"/> </div>  ) : 
+           { fieldDef.field == "arrow" ? ( <div><img data-source="lightstreamer" data-field="arrow" data-update="src" src="./spacer.gif" width="20" height="8" border="0" alt="arrow"/> </div>  ) : 
 
               <div data-source="lightstreamer" data-field={fieldDef.field}>
                 {state[fieldDef.field]}
